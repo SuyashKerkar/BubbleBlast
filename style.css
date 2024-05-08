@@ -134,6 +134,8 @@ html, body{
 i{
   position: fixed;
   font-size: 1vh;
+  height: 1vh;
+  width: 1vh;
   left: 2%;
   top: 5%;
   cursor: pointer;
