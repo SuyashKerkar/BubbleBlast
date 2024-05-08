@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bubble Blast Game</title>
+  <link rel="stylesheet" href="style.css">
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+  <div class="main">
+    <i onclick="toggelHelp()" class="ri-question-fill"></i>
+    <div id="help">
+      <p>* The objective of <u>Bubble Blast</u> is to find the number given in the Hit Box within one minute. <br>*Each correct number found earns the player 10 points. <br>*The faster a player finds the matching bubble value to hit, the more points they will accumulate. <br><u>All The Best!</u> <br><u id = "click"; onclick="toggelHelp() ; window.location.reload(true);"> Click to Play!! </u> </p>
+    </div>
+    <div id="box">
+      <div id="box-top">
+        <div id="topelem">
+          <h4>Hit</h4>
+          <div class="box-holder" id="hitnum"></div>
+        </div>
+        <div id="topelem">
+          <h4>Score</h4>
+          <div class="box-holder" id="scoreval">0</div>
+        </div>
+        <div id="topelem" class="timer" >
+          <h4>Timer</h4>
+          <div class="box-holder" id="countdown">60</div>
+        </div>
+      </div>
+      <div id="box-bottom">
+        
+      </div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
